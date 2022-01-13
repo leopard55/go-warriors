@@ -24,7 +24,7 @@ public class TestCRUDByXmlMapper {
          */
         String statement = "com.leopard.mapping.userMapper.addUser";//映射sql的标识字符串
         User user = new User();
-        user.setName("用户孤傲苍狼");
+        user.setName("刘哲");
         user.setAge(20);
         //执行插入操作
         int retResult = sqlSession.insert(statement,user);

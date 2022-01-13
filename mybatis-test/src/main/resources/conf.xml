@@ -7,9 +7,17 @@
         development : 开发模式
         work : 工作模式
      -->
+
+    <!--批量为某个包下的所有实体类设置别名  MyBatis默认的设置别名的方式就是去除类所在的包后的简单的类名-->
     <typeAliases>
         <package name="com.leopard.domain"/>
     </typeAliases>
+
+    <!-- 单独为某一个实体类设置别名
+    <typeAliases>
+        <typeAlias type="me.gacl.domain.User" alias="_User"/>
+    </typeAliases>
+    -->
 
     <environments default="development">
         <environment id="development">

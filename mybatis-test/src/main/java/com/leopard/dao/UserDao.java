@@ -12,6 +12,7 @@ import java.util.List;
  * @Author: leopard
  * @CreateDate: 2021-12-20 14:17
  * 定义sql映射的接口，使用注解指明方法要执行的SQL
+ * 需要说明的是，我们不需要针对UserMapperI接口去编写具体的实现类代码，这个具体的实现类由MyBatis帮我们动态构建出来.我们只需要直接拿来使用即可。
  */
 public interface UserDao {
     //使用@Insert注解指明add方法要执行的SQL

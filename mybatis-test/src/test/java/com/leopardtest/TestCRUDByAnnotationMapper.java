@@ -61,7 +61,7 @@ public class TestCRUDByAnnotationMapper {
         //得到UserDao接口的实现类对象，UserDao接口的实现类对象由sqlSession.getMapper(UserDao.class)动态构建出来
         UserDao mapper = sqlSession.getMapper(UserDao.class);
         //执行查询操作，将查询结果自动封装成User返回
-        User user = mapper.getById(8);
+        User user = mapper.getById(4);
         //使用SqlSession执行完SQL之后需要关闭SqlSession
         sqlSession.close();
         System.out.println(user);
