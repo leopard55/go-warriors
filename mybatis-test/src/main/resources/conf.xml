@@ -42,5 +42,9 @@
         <!-- 注册orderMapper.xml文件，
         orderMapper.xml位于me.gacl.mapping这个包下，所以resource写成me/gacl/mapping/orderMapper.xml-->
         <mapper resource="\mapping\orderMapper.xml"/>
+
+        <!-- 注册classMapper.xml文件，
+        classMapper.xml位于me.gacl.mapping这个包下，所以resource写成me/gacl/mapping/classMapper.xml-->
+        <mapper resource="mapping\classMapper.xml"/>
     </mappers>
 </configuration>
