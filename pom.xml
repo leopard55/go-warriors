@@ -9,6 +9,7 @@
         <module>chapter5</module>
         <module>mybatisplus-demo</module>
         <module>demo</module>
+        <module>mybatis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,7 +1,5 @@
 package com.leopard.dpgof.d_dependencyinversion.negtive;
 
-
-
 /*
 
 粗略来说，类和类之间的关系有三种：继承、关联、依赖。
@@ -23,9 +21,6 @@ class B {
 }
 
 
-
-
- 
  依赖倒置原则： 上层不应该依赖于下层，它们（上层和下才能）都应该是依赖于抽象。
 */
 
