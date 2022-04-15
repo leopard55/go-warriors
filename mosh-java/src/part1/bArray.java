@@ -1,4 +1,4 @@
-package part1;
+package com.leopard;
 
 import java.util.Arrays;
 
@@ -28,5 +28,6 @@ public class bArray {
         System.out.println(Arrays.deepToString(numbers)); //[[1, 0, 0], [0, 0, 0]]
 
         int[][] numbers1 = { {1, 2, 3}, {4, 5, 6} };
+        
     }
 }

@@ -1,4 +1,4 @@
-package part1;
+package com.leopard;
 
 public class dMath {
     public static void main(String[] args) {

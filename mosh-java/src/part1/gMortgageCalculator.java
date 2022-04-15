@@ -1,4 +1,4 @@
-package part1;
+package com.leopard;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
