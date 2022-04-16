@@ -17,15 +17,13 @@ public class bArray {
         System.out.println(Arrays.toString(numbers1));
 
         final float PI = 3.14F;
-
-        multArray();
     }
 
     public static void multArray() {
         int[][] numbers = new int[2][3];
         numbers[0][0] = 1;
-        System.out.println(Arrays.toString(numbers)); // [[I@74a14482, [I@1540e19d]
-        System.out.println(Arrays.deepToString(numbers)); //[[1, 0, 0], [0, 0, 0]]
+        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.deepToString(numbers));
 
         int[][] numbers1 = { {1, 2, 3}, {4, 5, 6} };
         

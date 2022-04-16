@@ -4,7 +4,9 @@ import java.awt.*;
 import java.util.Date;
 
 public class aMain {
+
     public static void main(String[] args) {
+        System.out.println("hello world");
         byte age = 30;
         int viewCount = 123_456_789;
         long viewsCount = 3_123_456_789L;
@@ -28,14 +30,13 @@ public class aMain {
         message1.indexOf('h');
         message1.replace("!","*");//不会修改原来的字符串，返回一个新的String对象，因为Java中字符串是不可变的
         message1.toUpperCase();
-        message1.toLowerCase();
         message1.trim();
         System.out.println(message1);
 
         String message2 = "hello \"world\"";
         System.out.println(message2);
 
-        String message3 = "c:\\Windows\\..."; // c:\Windows\...
+        String message3 = "c:\\Windows\\...";
         String message4 = "c:\nWindows\\...";
         String message5 = "c:\tWindows\\...";
     }
