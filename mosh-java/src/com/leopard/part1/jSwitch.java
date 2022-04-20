@@ -1,4 +1,4 @@
-package com.leopard;
+package com.leopard.part1;
 
 public class jSwitch { 
     public static void main(String[] args) {

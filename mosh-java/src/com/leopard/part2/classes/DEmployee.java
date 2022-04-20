@@ -1,4 +1,4 @@
-package com.leopard.classes;
+package com.leopard.part2.classes;
 
 /**
  * @Title: Abstraction 抽象，隐藏实现细节

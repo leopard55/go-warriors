@@ -1,4 +1,4 @@
-package com.leopard.classes;
+package com.leopard.part2.classes;
 
 /**
  * @Title: Constructors, Method Overload, Static Members(fields, method)

@@ -1,4 +1,4 @@
-package com.leopard;
+package com.leopard.part1;
 
 public class hLogicalOperators {
     public void main(String[] args) {

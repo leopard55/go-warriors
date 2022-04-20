@@ -1,4 +1,4 @@
-package com.leopard;
+package com.leopard.part1;
 
 import java.awt.*;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.leopard.refacotr;
+package com.leopard.part2.refacotr;
 
 public class MortgageCalculator {
     private final static byte MONTHS_IN_YEAR = 12;
